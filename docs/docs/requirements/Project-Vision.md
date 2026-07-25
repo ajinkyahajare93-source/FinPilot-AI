@@ -1,3 +1,0 @@
-# Project Vision
-
-Coming soon...
