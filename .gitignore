@@ -1,4 +1,6 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# =========================
+# Next.js / Frontend
+# =========================
 
 # dependencies
 /node_modules
@@ -30,15 +32,42 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
+# env
 .env*
-
-# vercel
 .vercel
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
 
-# clerk configuration (can include secrets)
-/.clerk/
+# =========================
+# Python / Backend
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+.venv/
+venv/
+env/
+ENV/
+
+dist/
+build/
+*.egg-info/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+
+.coverage
+htmlcov/
+
+.ipynb_checkpoints
+
+# VS Code temp
+tempCodeRunnerFile.py
